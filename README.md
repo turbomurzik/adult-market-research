@@ -38,7 +38,8 @@ The goal is not to build another generic adult tube. The working thesis is that 
 - `research/00-proto-research.md` — canonical starting memo and comparison.
 - `research/01-audio.md` — Adult Audio research track.
 - `research/audio/AUDIO-STRATEGY-v1.md` — canonical current Adult Audio product/brand strategy.
-- `research/audio/AUDIO-R01-underserved-wedge.md` — current Adult Audio market/wedge research.
+- `research/audio/AUDIO-R01-underserved-wedge.md` — MM/M4M market and wedge research.
+- `research/audio/FURRY-R01-market-and-wedge.md` — Furry Worlds vs Furry Explicit market/wedge research.
 - `research/02-games.md` — Adult Games research track.
 - `research/03-ai-video.md` — AI Video research track.
 - `research/SOURCES.md` — source register.
@@ -66,12 +67,13 @@ Each track should be researched using the same dimensions:
 
 ## Current short-list
 
-No winner yet.
+No overall winner yet.
 
-- **Games:** strongest evidence of large, habitual destination traffic.
-- **Audio:** unusually attractive economics and low infrastructure cost; currently the active research focus.
-- **AI Video:** largest speculative upside, but also the highest platform/compliance risk.
+- **MM Audio Drama:** serious story-first validation candidate; direct audio economics still need validation.
+- **M4M Roleplay:** clear supply/discovery gap; willingness to pay versus free alternatives remains the core uncertainty.
+- **Furry Explicit:** strongest direct furry-audio monetization evidence; primary furry smoke-test candidate.
+- **Furry Worlds:** strongest speculative IP/retention upside in furry audio; exploratory smoke-test candidate.
 
-Within Adult Audio, the next research pass is **FURRY-R01**, evaluating Furry Worlds and Furry Explicit as separate hypotheses before designing comparative smoke tests.
+Games and AI Video remain in the repository but are outside the active workstream for now.
 
-The next research pass should test these statements rather than assume them.
+The next step is **not platform development**. After reconciling independent research, design comparative smoke tests that force the strongest Adult Audio hypotheses to compete on listening depth, repeat intent, cross-creator/character behavior and willingness to pay.
