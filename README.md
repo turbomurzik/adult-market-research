@@ -1,79 +1,89 @@
 # Adult Digital Markets Research
 
-Exploratory research repository for three adult digital-media product hypotheses:
-
-1. **Adult Audio** — creator-led erotic audio / discovery / subscription.
-2. **Adult Games** — discovery, metadata, updates, reviews and creator/developer layer for adult games.
-3. **AI Video** — synthetic-only adult video discovery/network built around creators, fictional characters and series.
+Exploratory research repository for adult digital-media opportunities.
 
 ## Status
 
-**Stage:** Proto-research / hypothesis formation  
-**Started:** 2026-09-26  
-**Decision:** Do not choose a product yet. Research all three against the same criteria first.
+**Stage:** Adult Audio validation research  
+**Started:** 2026-09-26
 
-### Current focus
+The active workstream is currently **Adult Audio only**.
 
-The active research focus is **Adult Audio only**. Do not expand the active workstream into games, visual novels, comics, AI companions, AI video or other adjacent formats until at least one adult-audio hypothesis shows credible demand and economics.
+Games, visual novels, comics, AI companions, AI video and other adjacent formats may be used as demand proxies, but are not active product directions until an adult-audio hypothesis earns further investment.
 
-The canonical current Adult Audio strategy is:
+## Canonical Adult Audio strategy
 
 - `research/audio/AUDIO-STRATEGY-v1.md`
 
-It defines four distinct consumer hypotheses:
+Current principle:
 
-1. **MM Audio Drama** — story-first.
-2. **M4M Roleplay** — listener-first.
-3. **Furry Worlds** — serialized adult furry fiction, story/world-first.
-4. **Furry Explicit** — character/desire-first.
+> **One primary consumer intent = one consumer brand.**
 
-Current principle: **one primary consumer intent = one consumer brand**. If several hypotheses validate, they may share a common technical stack but should not be forced into one consumer-facing product.
+Shared technical infrastructure is allowed. Different listener intents should not be collapsed into one consumer-facing catalogue merely because the media format is audio.
 
-## Working principle
+## Current hypotheses
 
-The goal is not to build another generic adult tube. The working thesis is that the strongest opportunities are likely to sit in **discovery + audience ownership + repeat usage + creator/developer relationships + higher-value monetization**.
+1. **MM Audio Drama** — story-first MM romance/audio drama.
+2. **M4M Roleplay** — direct-to-listener male/male roleplay.
+3. **Furry Explicit-C** — recurring-character adult furry audio; current primary furry hypothesis.
+4. **Furry Explicit-K** — category/kink-led furry catalogue; secondary/control hypothesis.
+5. **Furry Worlds** — serialized adult furry audio fiction; exploratory story-first hypothesis.
+
+### Key furry refinement
+
+FURRY-R01 added an important distinction:
+
+- **category-anchored:** user searches for species / pairing / kink / dynamic;
+- **character-anchored:** user returns for a specific recurring OC/voice.
+
+Current working thesis:
+
+> **Category may drive acquisition; character may drive retention.**
 
 ## Repository map
 
-- `research/00-proto-research.md` — canonical starting memo and comparison.
+- `research/00-proto-research.md` — initial cross-market proto research.
 - `research/01-audio.md` — Adult Audio research track.
-- `research/audio/AUDIO-STRATEGY-v1.md` — canonical current Adult Audio product/brand strategy.
-- `research/audio/AUDIO-R01-underserved-wedge.md` — MM/M4M market and wedge research.
-- `research/audio/FURRY-R01-market-and-wedge.md` — Furry Worlds vs Furry Explicit market/wedge research.
-- `research/02-games.md` — Adult Games research track.
-- `research/03-ai-video.md` — AI Video research track.
+- `research/audio/AUDIO-STRATEGY-v1.md` — canonical current strategy.
+- `research/audio/AUDIO-R01-underserved-wedge.md` — MM/M4M market/wedge research.
+- `research/audio/FURRY-R01-market-and-wedge.md` — first furry market/wedge pass.
+- `research/audio/FURRY-R01-unit-economics.py` — reproducible furry unit-economics model.
+- `research/audio/FURRY-R01-reconciliation.md` — reconciliation of the two furry research passes and resulting strategy changes.
+- `research/02-games.md` — inactive adjacent track.
+- `research/03-ai-video.md` — inactive adjacent track.
 - `research/SOURCES.md` — source register.
 - `DECISIONS.md` — append-only decision log.
 
-## Evaluation framework
+## Economic guardrail
 
-Each track should be researched using the same dimensions:
+The current furry model is intentionally conservative.
 
-- Market demand / traffic
-- Existing competitors
-- User pain / product gap
-- Content supply
-- Acquisition / SEO
-- Repeat usage / retention
-- Monetization
-- Unit economics
-- Infrastructure burden
-- Legal / compliance / payments
-- Defensibility / moat
-- MVP scope and cost
-- Route to first 10k monthly visits
-- Route to €10k/month revenue
-- Kill criteria
+At €7.99–9.99/month, the current scenario model suggests that approximately **2,000–4,000 paying users** may be required to reach ~€10k/month operating profit **before CAC**, depending on production and creator economics.
 
-## Current short-list
+At 15% monthly churn, 2,000–4,000 subscribers imply roughly **300–600 replacement subscribers every month just to stay flat**.
 
-No overall winner yet.
+These are estimates, not forecasts.
 
-- **MM Audio Drama:** serious story-first validation candidate; direct audio economics still need validation.
-- **M4M Roleplay:** clear supply/discovery gap; willingness to pay versus free alternatives remains the core uncertainty.
-- **Furry Explicit:** strongest direct furry-audio monetization evidence; primary furry smoke-test candidate.
-- **Furry Worlds:** strongest speculative IP/retention upside in furry audio; exploratory smoke-test candidate.
+## Immediate next step
 
-Games and AI Video remain in the repository but are outside the active workstream for now.
+Do **not** build the product yet.
 
-The next step is **not platform development**. After reconciling independent research, design comparative smoke tests that force the strongest Adult Audio hypotheses to compete on listening depth, repeat intent, cross-creator/character behavior and willingness to pay.
+### FURRY-G00 — Creator & Processor Gate
+
+Before meaningful content spend:
+
+1. structured outreach to ~15 relevant creators / VAs / furry projects;
+2. determine licensing and rev-share feasibility;
+3. obtain written policy/pre-approval guidance from at least two adult-friendly processors for the intended anthro-audio content rules.
+
+If the gate passes:
+
+### FURRY-V01 — Comparative Smoke-Test Design
+
+Test separately:
+- **Explicit-C:** does recurring-character attachment create repeat use/payment intent?
+- **Furry Worlds:** does episode completion create next-episode/season payment intent?
+
+Explicit-K can be used as a category-led control.
+
+No overall Adult Audio winner has been selected.
