@@ -182,13 +182,24 @@ Use to test whether category-led discovery is enough by itself or merely an acqu
 
 ---
 
-## 9. Canonical next sequence
+## 9. Portfolio decision after reconciliation
+
+**Furry is now HOLD — interesting but not compelling.**
+
+The research remains valid and preserved, but the project will not currently spend the next validation slot on:
+- creator interviews;
+- processor outreach;
+- content production;
+- smoke tests;
+- platform work.
+
+If the branch is reactivated later, the deferred sequence remains:
 
 1. **FURRY-G00 — Creator & Processor Gate**
 2. **FURRY-V01 — Comparative Smoke-Test Design**
-3. Produce minimum validation corpus only
-4. Acquire targeted traffic
-5. Measure retention/payment behavior
-6. Kill / iterate / advance
+3. minimum validation corpus
+4. targeted traffic
+5. retention/payment measurement
+6. kill / iterate / advance
 
-No furry platform build is authorized by R01 alone.
+The active Adult Audio workstream returns to **MM Audio Drama vs M4M Roleplay**.
