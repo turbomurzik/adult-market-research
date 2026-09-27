@@ -3,7 +3,7 @@
 **Status:** Canonical strategy note  
 **Date:** 2026-09-27  
 **Scope:** Adult Audio only  
-**Purpose:** Preserve the current product decomposition, brand architecture, and immediate research sequence.
+**Purpose:** Preserve the current product decomposition, brand architecture, evidence state, and validation sequence.
 
 ---
 
@@ -11,7 +11,7 @@
 
 For the current phase, the project stays **strictly inside Adult Audio**.
 
-Do not expand into:
+Do not expand the active workstream into:
 - adult games;
 - comics;
 - visual novels;
@@ -20,359 +20,402 @@ Do not expand into:
 - general furry media;
 - broader creator platforms.
 
-Those may become adjacent opportunities later, but they are explicitly out of scope until at least one adult-audio hypothesis shows credible demand and economics.
+Adjacent markets may be used as **evidence proxies**, not as new product directions.
 
-The current task is to identify the strongest adult-audio product before building broadly.
+The current task is to identify which adult-audio hypothesis deserves to be built.
 
 ---
 
 ## 2. Core strategic principle
 
-Do **not** treat Adult Audio as one product with many categories.
-
-The current research suggests that different listener intents should be treated as separate consumer products.
-
-### Rule
+Do **not** treat Adult Audio as one generic product with many unrelated categories.
 
 > **One primary consumer intent = one consumer brand.**
 
-Products may share infrastructure, production tooling, actors, analytics, moderation and payment abstractions underneath, but they should not be forced into the same consumer-facing catalogue or brand when the listener intent is materially different.
+Products may eventually share:
+- authentication;
+- player;
+- analytics;
+- CMS;
+- rights/provenance;
+- creator ingestion;
+- payment abstraction;
+- moderation;
+- production tooling.
 
-The reason is not merely aesthetic. Different intents imply different:
-- acquisition channels;
-- homepage promises;
-- discovery systems;
-- catalogue structures;
-- retention loops;
-- monetization behavior;
-- community identity;
-- brand expectations.
-
-A new niche product should feel immediately "for me", not like a large generic tube with unrelated categories.
-
----
-
-## 3. Current product hypotheses
-
-## A. MM Audio Drama
-
-### Primary intent
-**Story-first.**
-
-The listener wants to follow a story about two male protagonists.
-
-### Primary audience hypothesis
-Readers/listeners of MM romance.
-
-The current competing research suggests that the commercial core may include a large female MM-romance audience, with gay/bi male romance listeners as a secondary audience.
-
-### Product unit
-**Episode / series / season.**
-
-### Product characteristics
-- two or more voices;
-- plot;
-- recurring protagonists;
-- romantic/sexual tension;
-- serialized arcs;
-- cliffhangers;
-- adult scenes as narrative payoff rather than the only content.
-
-### Retention mechanism
-"What happens next to these characters?"
-
-### Current status
-Strong validation candidate, but willingness-to-pay and competition from existing MM audiobooks/full-cast content still need tighter validation.
+But materially different listener intents should not be forced into one consumer-facing catalogue merely because all content is audio.
 
 ---
 
-## B. M4M Roleplay
+## 3. Current Adult Audio hypotheses
 
-### Primary intent
-**Listener-first / desire-first.**
+### A. MM Audio Drama
 
-A gay or bi male listener wants a male performer/character speaking directly to him.
+**Intent:** story-first.  
+**User thought:** “I want to hear their story.”  
+**Core unit:** episode / series / season.  
+**Retention:** plot, relationship, recurring characters, cliffhangers.  
+**Current status:** serious validation candidate; direct willingness-to-pay for this exact product still needs testing.
 
-### Important distinction
-**M4M as listener-direction is not the same market as MM as story genre.**
+### B. M4M Roleplay
 
-MM Audio Drama:
-> "I want to hear their story."
+**Intent:** listener-first / desire-first.  
+**User thought:** “I want him to talk to me.”  
+**Core unit:** roleplay / creator drop / recurring-character session.  
+**Retention:** voice, creator, intimacy, repeat fantasy.  
+**Current status:** clear supply/discovery gap; willingness-to-pay versus free alternatives is the main uncertainty.
 
-M4M Roleplay:
-> "I want him to talk to me."
+### C. Furry Explicit
 
-### Product unit
-**Standalone roleplay / recurring creator or character session.**
+**Intent:** immediate fantasy / intimacy / roleplay.
 
-### Product characteristics
-- direct-to-listener POV;
-- creator/voice affinity;
-- BFE / comfort / intimacy;
-- explicit roleplay;
-- precise speaker → listener taxonomy;
-- dynamic and preference filters;
-- potentially recurring characters.
+FURRY-R01 materially refined this hypothesis into two sub-models.
 
-### Retention mechanism
-"I want more from this voice / creator / character."
+#### C1. Explicit-C — recurring-character explicit
 
-### Current status
-Clear supply and discovery gap. Existing willingness-to-pay among gay/bi male listeners is less well proven than the demand gap itself and must be tested.
+**Current primary furry hypothesis.**
 
----
+The user returns to a **specific recurring OC/character** with a stable voice, personality and drop cadence.
 
-## C. Furry Worlds
+Example structure:
+- 3–5 recurring adult anthro characters;
+- one consistent VA per character;
+- regular drops;
+- character art/profile;
+- category/species/dynamic tags for discovery;
+- optional comfort/intimacy → explicit continuum.
 
-### Working definition
+**Key thesis:**
+
+> **Category gets the user in; character keeps the user.**
+
+Category/species/kink may be acquisition mechanics.  
+Character/creator affinity may be the retention mechanic.
+
+**Retention:** “I want the next drop from this character.”
+
+**Why stronger than generic Furry Explicit:** it can accumulate character IP and is less commodity-like than a pure kink/species catalogue.
+
+#### C2. Explicit-K — category/kink catalogue
+
+The user primarily searches for:
+- species;
+- pairing;
+- dynamic;
+- kink;
+- POV;
+- scenario.
+
+**Retention:** catalogue breadth and search habit.
+
+**Current status:** useful comparison/control model, but strategically weaker than Explicit-C:
+- easier to commoditize;
+- weaker moat;
+- more exposed to free/AI substitutes;
+- potentially harder compliance surface.
+
+C1 and C2 are **not automatically separate brands**. A successful product may use category discovery with character-led retention. This must be tested rather than assumed.
+
+### D. Furry Worlds
 
 > **Serialized adult furry fiction — audio-first.**
 
-### Primary intent
-**Story / character / world-first.**
+**Intent:** story / world / character-first.  
+**User thought:** “I want to return to this world and know what happens next.”  
+**Core unit:** episode / season / world.
 
-The user comes for a fictional universe, recurring characters, relationships and serialized story.
+Working content hypothesis:
+- roughly 70–90% story / character / world;
+- roughly 10–30% adult payoff.
 
-Sexual content is part of the adult fiction, but is not necessarily the majority of runtime.
+This ratio remains unproven.
 
-A plausible initial hypothesis is approximately:
-- 70–90% world / plot / character / relationship;
-- 10–30% explicit payoff.
+**Retention:** plot, relationships, world attachment, character attachment, cliffhangers.
 
-This ratio is a test hypothesis, not a fixed product rule.
+**Potential moat:** owned world/character IP and accumulated narrative attachment.
 
-### Product unit
-**Episode / season / world.**
+**Current evidence state:** the “return for characters/world” behavior is well evidenced in adjacent furry fiction/VN markets, but willingness-to-pay for a dedicated **audio-first serialized furry destination** is not directly established.
 
-### Product characteristics
-- anthropomorphic adult characters;
-- recurring cast;
-- worldbuilding;
-- character arcs;
-- relationships;
-- serialized stories;
-- optional multiple voice actors;
-- adult scenes embedded in the fiction.
-
-### Retention mechanism
-"I want the next episode / season and I care what happens to these characters."
-
-### Key thesis
-The asset is not merely an MP3 library. It is accumulating fictional IP:
-- worlds;
-- characters;
-- relationships;
-- lore;
-- voice identity;
-- serialized narrative.
-
-### Current status
-Very interesting but under-researched. Story-first furry demand is visible in adjacent fiction formats, but the size and economics of an **audio-first destination product** are not yet established.
-
-This requires a dedicated research pass before any build decision.
+Furry Worlds therefore remains an **exploratory validation candidate**, not a build decision.
 
 ---
 
-## D. Furry Explicit
+## 4. Furry evidence state after independent R01 reconciliation
 
-### Primary intent
-**Immediate desire / roleplay-first.**
+The furry branch is real, but should be treated conservatively.
 
-The user wants a specific furry fantasy, character, voice or dynamic without needing a long narrative.
+### What is supported
 
-### Product unit
-**Scene / roleplay / creator-character drop.**
+- paid furry adult content exists;
+- paid furry audio exists, but current visible creator scale is generally small;
+- adult furry VN/game projects provide much stronger willingness-to-pay evidence than audio;
+- recurring OC/character behavior already exists in furry creator supply;
+- no scaled dedicated furry-audio destination was identified;
+- no meaningful scaled serialized adult furry audio-drama destination was identified.
 
-### Product characteristics
-- character/species;
-- voice;
-- speaker/listener direction;
-- dynamic;
-- explicitness;
-- scenario;
-- creator or recurring character;
-- strong tagging and filtering.
+### What is not supported
 
-### Retention mechanism
-"I want this character / creator / fantasy again."
+- “large furry fandom” does **not** imply a large furry-audio TAM;
+- absence of a dedicated competitor does **not** prove whitespace demand;
+- Worlds demand in VN/fiction does **not** prove Worlds demand in audio;
+- the 70–90 / 10–30 story/explicit ratio is not validated;
+- category affinity vs character affinity has not been quantitatively measured;
+- churn benchmarks for furry audio subscriptions are not known.
 
-### Important distinction from Furry Worlds
+### Current market-size posture
 
-Furry Worlds:
-> "What happens next in this world?"
+Treat furry audio as a **small, fragmented niche until first-party validation proves otherwise**.
 
-Furry Explicit:
-> "Give me the scene/fantasy I want now."
+The current unit-economics model implies that reaching roughly **€10k/month operating profit before CAC** may require on the order of **2,000–4,000 paying users**, depending on price, content model and production cost.
 
-These should not be treated as two tabs of the same consumer experience by default.
+That is not trivial relative to the visible scale of existing furry projects.
 
-### Current status
-Plausible creator-driven niche with strong fandom mechanics, but requires dedicated research into creator economics, discovery, willingness to pay and existing competition.
+Canonical model:
+- `research/audio/FURRY-R01-unit-economics.py`
 
 ---
 
-## 4. Brand architecture
+## 5. Compliance and payment gate comes before production
 
-Current working decision:
+The independent R01 pass materially changed the validation sequence.
 
-### Do not launch one generic Adult Audio consumer brand containing all four hypotheses.
+Before spending meaningfully on content, run **Gate 0**.
 
-If multiple hypotheses validate, use **separate market-facing brands**.
+### Gate 0A — Creator feasibility
 
-Potential structure:
+Structured outreach to approximately **15 relevant furry-audio / furry-VN / VA creators** to establish:
+- real sales ranges where they are willing to share them;
+- willingness to license back catalogue;
+- willingness to join a multi-creator product;
+- rev-share expectations;
+- exclusivity expectations;
+- whether creator audiences would tolerate aggregation outside Patreon/itch/Gumroad.
 
-- Brand A → MM Audio Drama
-- Brand B → M4M Roleplay
-- Brand C → Furry Worlds
-- Brand D → Furry Explicit
+### Gate 0B — Processor feasibility
 
-These may share the same technical platform underneath.
+Obtain written pre-approval / policy interpretation from at least **two adult-friendly payment processors** for the intended anthro-audio content boundaries.
 
-### Shared backend may eventually include
-- authentication;
-- audio player;
-- analytics;
-- CMS;
-- creator ingestion;
-- catalogue storage;
-- tagging engine;
-- subscription/payment abstraction;
-- moderation/compliance tooling;
-- rights/provenance records;
-- production tooling.
+Confirm:
+- adult anthropomorphic fictional characters;
+- allowed/prohibited anatomy descriptions;
+- prohibited themes;
+- required age assurance;
+- creator/performer documentation;
+- chargeback/reserve expectations;
+- jurisdiction constraints.
 
-### Consumer-facing layers should remain independent where intent differs
-- naming;
-- visual identity;
-- onboarding;
-- homepage;
-- recommendation logic;
-- catalogue;
-- CRM/email;
-- acquisition;
-- community tone.
+### Gate 0 failure condition
 
-This is the current preferred architecture: **multiple precise consumer brands over one reusable adult-audio stack**.
+If no workable processor path exists for the intended content policy, **stop the furry commercial branch before production spend** and revisit only after the payment/compliance environment changes.
 
 ---
 
-## 5. What is NOT a sufficient wedge
+## 6. Brand architecture after FURRY-R01
 
-Do not mistake the following for standalone product strategies:
+The earlier rule still stands:
 
-- "queer audio";
-- "audio for everyone";
-- "creator-first";
-- "cinematic audio";
-- "full-cast audio";
-- "better search";
-- "more inclusive tags";
-- "furry audio";
-- "adult audio with AI."
+> **Do not merge materially different consumer intents merely to save frontend work.**
 
-These can be features or format choices.
+Therefore:
+
+- **MM Audio Drama** remains its own consumer hypothesis.
+- **M4M Roleplay** remains its own consumer hypothesis.
+- **Furry Explicit-C/K** may potentially share one furry-explicit consumer product if testing supports category-discovery + character-retention.
+- **Furry Worlds** should retain a separate story-first consumer positioning during validation.
+
+Furry Worlds may share backend, analytics and production infrastructure with Furry Explicit, but it should **not be hidden as a “Series” tab inside an explicit catalogue by default**. That would confound the test of story-first intent.
+
+---
+
+## 7. Current validation priority
+
+### Priority 1 — Explicit-C
+
+Primary furry validation hypothesis.
+
+Test whether recurring characters create repeat behavior beyond generic category consumption.
+
+Core question:
+
+> **Will users return for the same character, not merely search for the same category?**
+
+### Priority 2 — Furry Worlds
+
+Exploratory story-first validation.
+
+Core question:
+
+> **Will listeners finish episode 1 and actively want/pay for episode 2 or the season?**
+
+### Secondary/control — Explicit-K
+
+Useful as a comparison:
+- category landing vs character landing;
+- catalogue discovery vs recurring-character attachment.
+
+Do not build a large kink catalogue before creator licensing and processor feasibility are proven.
+
+---
+
+## 8. Validation design constraints
+
+### Explicit-C minimum test
+
+- 3 recurring adult anthro characters;
+- 2 real audios per character;
+- one stable VA per character;
+- SFW/suggestive teaser assets;
+- character landing pages;
+- category landing pages for A/B comparison;
+- fake-door subscription and per-item purchase;
+- analytics for repeat visit to same character.
+
+Critical metrics:
+- teaser play;
+- paywall click;
+- intent capture;
+- repeat visit;
+- character follow;
+- category vs character conversion;
+- second-character exploration.
+
+### Furry Worlds minimum test
+
+Do **not** build a full season.
+
+Minimum:
+- trailer;
+- one real 15–25 minute episode;
+- season synopsis;
+- next-episode / season-pass fake door.
+
+Use a **separate story-first façade** from Explicit-C, even if the backend is shared.
+
+Critical metrics:
+- episode start;
+- 25/50/75/90% completion;
+- next-episode click;
+- season-pass intent;
+- follow-character/world;
+- qualitative story discussion.
+
+---
+
+## 9. Economic guardrails
+
+Current model inputs are assumptions and must be replaced progressively with real data.
+
+Key current scenario inputs include:
+- €7.99 / €9.99 subscription;
+- blended taxes;
+- adult processing cost;
+- refunds/chargebacks;
+- age-assurance cost;
+- content production ranges;
+- 10–20% monthly churn scenarios.
+
+### Churn
+
+Monthly churn = percentage of paying subscribers who stop paying each month.
+
+At 15% monthly churn:
+- 2,000 payers require ~300 new payers/month just to stay flat;
+- 4,000 payers require ~600 new payers/month just to stay flat.
+
+Therefore the true constraint is not only reaching 2–4k payers once. It is **replacing churn economically every month**.
+
+CAC is not yet included in the current profit model. Any paid-acquisition requirement raises the payer threshold materially.
+
+---
+
+## 10. What is NOT a sufficient wedge
+
+Do not mistake these for strategies:
+- “furry audio”;
+- “queer audio”;
+- “better search”;
+- “creator-first”;
+- “cinematic”;
+- “full-cast”;
+- “AI audio”;
+- “lots of tags.”
 
 A valid wedge must specify:
-1. who the user is;
-2. what primary job they are hiring the product for;
-3. why existing destinations serve that job poorly;
-4. why the user would return;
-5. why they might pay.
+1. user;
+2. primary job-to-be-done;
+3. why current alternatives serve it poorly;
+4. repeat-use mechanism;
+5. willingness-to-pay mechanism;
+6. production economics;
+7. payment/compliance feasibility.
 
 ---
 
-## 6. Current comparison
-
-| Hypothesis | Primary intent | Core unit | Main retention loop | Main unknown |
-|---|---|---|---|---|
-| MM Audio Drama | Story | Episode / series | Plot + characters + cliffhangers | Does MM-romance demand convert into paid adult audio? |
-| M4M Roleplay | Direct desire / intimacy | Roleplay / creator drop | Voice + creator + repeat fantasy | Will gay/bi male listeners pay enough vs free alternatives? |
-| Furry Worlds | World / story / character | Episode / season / world | IP + character attachment + serialized story | Is there a meaningful audio-first market? |
-| Furry Explicit | Immediate fantasy | Scene / roleplay | Character + creator + precise fantasy matching | Is a dedicated destination better than Patreon/community workflows? |
-
-No winner is selected yet.
-
----
-
-## 7. Testing philosophy
-
-Do not build four products.
-
-Make the hypotheses compete for the right to be built.
-
-The intended sequence is:
-
-1. research each market enough to define a falsifiable product hypothesis;
-2. design the smallest realistic smoke test;
-3. acquire relevant users;
-4. measure listening depth, repeat intent and willingness to pay;
-5. kill weak hypotheses quickly;
-6. build only after a product demonstrates credible signal.
-
-The purpose of proto-research is not to prove that an idea is exciting. It is to reduce the cost of being wrong.
-
----
-
-## 8. Current research state
+## 11. Current research state
 
 ### Completed / substantially researched
 - Adult Audio proto-research.
 - AUDIO-R01 market/wedge research.
-- MM Audio Drama vs M4M distinction has been identified.
-- Independent competing research has strengthened MM Audio Drama as a serious validation candidate and challenged the assumption that M4M scarcity automatically implies strong monetization.
+- MM Drama vs M4M distinction.
+- FURRY-R01 initial market/wedge research.
+- independent FURRY-R01 pass.
+- furry unit-economics model.
 
-### Not yet adequately researched
+### Reconciled furry conclusion
+
+The strongest current furry hypothesis is:
+
+> **Recurring-character Explicit (Explicit-C), especially M4M/M4A, with category/species/dynamic metadata used for acquisition and character attachment used for retention.**
+
+Furry Worlds remains strategically interesting because its IP/retention upside may be higher, but direct audio monetization evidence is substantially weaker.
+
+---
+
+## 12. Immediate sequence
+
+### Step 0 — FURRY-G00: Creator & Processor Gate
+
+Before material production:
+1. creator feasibility;
+2. processor feasibility.
+
+### Step 1 — FURRY-V01: Comparative Smoke-Test Design
+
+Design two separate consumer-facing tests:
+- Explicit-C;
 - Furry Worlds.
-- Furry Explicit.
-- Comparative validation economics across all four hypotheses.
+
+Include Explicit-K as a control/discovery comparison where useful.
+
+### Step 2 — Produce only the minimum validation corpus
+
+No platform build and no full season.
+
+### Step 3 — Acquire targeted traffic and measure behavior
+
+The hypotheses must compete on:
+- listening depth;
+- repeat intent;
+- character/world attachment;
+- payment intent;
+- acquisition efficiency.
+
+### Step 4 — Kill, iterate or advance
+
+Only a hypothesis with real behavioral and payment signal earns a build.
 
 ---
 
-## 9. Immediate next task
+## 13. Current strategic snapshot
 
-### FURRY-R01 — Market & Wedge Research
-
-Research Furry Worlds and Furry Explicit as **two separate hypotheses**.
-
-The central question:
-
-> **Is there a sufficiently large and monetizable market for an audio-first furry destination, and is the stronger job-to-be-done serialized story/world attachment or immediate explicit roleplay?**
-
-Required areas:
-- existing furry audio creators and platforms;
-- Patreon/Fanbox/Gumroad and comparable creator economics;
-- furry audiobooks and audio dramas;
-- adult furry fiction and VN markets as demand proxies;
-- relevant communities and discovery paths;
-- creator/character loyalty;
-- species / character / relationship / roleplay taxonomy;
-- existing dedicated competitors;
-- free-vs-paid behavior;
-- willingness-to-pay evidence;
-- whether users want a destination product or prefer creator-specific Patreon/community workflows;
-- production economics;
-- acquisition channels;
-- realistic route to €10k/month;
-- kill criteria.
-
-### Required output
-A canonical research memo:
-
-`research/audio/FURRY-R01-market-and-wedge.md`
-
-It must evaluate **Furry Worlds and Furry Explicit separately** and conclude whether either deserves an AUDIO-001-style smoke test.
-
----
-
-## 10. Current strategic snapshot
-
-The adult-audio track is no longer one vague product idea.
-
-It is currently a portfolio of four falsifiable consumer hypotheses:
+The adult-audio portfolio is now:
 
 > **MM Drama — story about them**  
 > **M4M Roleplay — directed at me**  
-> **Furry Worlds — return to the world**  
-> **Furry Explicit — return to the fantasy/character**
+> **Furry Explicit-C — return to this character**  
+> **Furry Explicit-K — find this fantasy/category**  
+> **Furry Worlds — return to this world**
 
-The current strategy is to preserve that distinction, research the furry branch next, and remain inside Adult Audio until one or more hypotheses earn further investment.
+No overall winner is selected.
+
+The next move is not development. It is **Gate 0, then controlled validation**.
