@@ -55,7 +55,7 @@ But materially different listener intents should not be forced into one consumer
 **User thought:** “I want to hear their story.”  
 **Core unit:** episode / series / season.  
 **Retention:** plot, relationship, recurring characters, cliffhangers.  
-**Current status:** serious validation candidate; direct willingness-to-pay for this exact product still needs testing.
+**Current status:** **second validation candidate.** R02 found strong direct paid MM-audio evidence (including high-rating Audible titles) and strong serialized engagement precedent, but the cheapest valid test is relatively expensive/noisy because production quality, story and talent are themselves part of the product. Keep immediately behind M4M; do not put on HOLD.
 
 ### B. M4M Roleplay
 
@@ -63,7 +63,7 @@ But materially different listener intents should not be forced into one consumer
 **User thought:** “I want him to talk to me.”  
 **Core unit:** roleplay / creator drop / recurring-character session.  
 **Retention:** voice, creator, intimacy, repeat fantasy.  
-**Current status:** clear supply/discovery gap; willingness-to-pay versus free alternatives is the main uncertainty.
+**Current status:** **first validation candidate.** R02 found materially stronger direct WTP than R01 knew (one specialist M4M creator at roughly 950–970 paid Patreon members), but the platform/aggregation thesis remains unproven. The decisive next question is whether listeners cross from one creator to another and show €7.99 platform-level payment intent.
 
 ### C. Furry Explicit — HOLD
 
@@ -389,16 +389,28 @@ Furry Worlds remains strategically interesting because its IP/retention upside m
 
 ## 12. Immediate sequence
 
-### Active next step — return to MM vs M4M
+### Active next step — M4M smoke test
 
-Furry is paused.
+AUDIO-R02 is complete.
 
-The next active Adult Audio task is to compare and tighten the two non-furry candidates:
+**Decision:** M4M Roleplay gets the first validation slot. MM Audio Drama remains the second candidate.
 
-- **MM Audio Drama**
-- **M4M Roleplay**
+Why M4M first:
+- direct specialist WTP is now materially stronger than R01 showed;
+- a close historical predecessor (Kampsite) means the aggregation thesis must be tested rather than assumed;
+- the decisive uncertainty — creator-centric vs platform-centric behavior — can be falsified cheaply;
+- a valid M4M corpus can be built/licensed with lower production cost than a credible MM serial.
 
-The next research/validation work should determine which one deserves the next real smoke-test slot, using the evidence already collected plus any narrowly targeted missing research.
+The next artifact is:
+
+`research/audio/AUDIO-V01-M4M-smoke-test.md`
+
+Core experiment:
+- 3 M4M creators/voices;
+- 2 audios each;
+- creator-led acquisition;
+- €7.99 fake door;
+- primary metric: **cross-creator consumption**.
 
 ### Furry sequence — deferred
 
@@ -422,8 +434,10 @@ The adult-audio portfolio is now:
 > **Furry Explicit-K — find this fantasy/category**  
 > **Furry Worlds — return to this world**
 
-No overall winner is selected.
+No overall business winner is selected.
 
-**Furry status: HOLD — interesting but not compelling.**
+**First validation slot: M4M Roleplay.**  
+**Second validation candidate: MM Audio Drama.**  
+**Furry: HOLD — interesting but not compelling.**
 
-The next move is not furry Gate 0. The active workstream returns to **MM Audio Drama vs M4M Roleplay**.
+This ordering is about **information gain and cost of falsification**, not a claim that M4M has the larger final market.
