@@ -23,11 +23,16 @@ Shared technical infrastructure is allowed. Different listener intents should no
 
 ## Current hypotheses
 
+### Active shortlist
 1. **MM Audio Drama** — story-first MM romance/audio drama.
 2. **M4M Roleplay** — direct-to-listener male/male roleplay.
-3. **Furry Explicit-C** — recurring-character adult furry audio; current primary furry hypothesis.
-4. **Furry Explicit-K** — category/kink-led furry catalogue; secondary/control hypothesis.
-5. **Furry Worlds** — serialized adult furry audio fiction; exploratory story-first hypothesis.
+
+### HOLD
+3. **Furry Explicit-C** — recurring-character adult furry audio.
+4. **Furry Explicit-K** — category/kink-led furry catalogue.
+5. **Furry Worlds** — serialized adult furry audio fiction.
+
+**Furry status:** **HOLD — interesting but not compelling.** Research is preserved, but no further creator outreach, processor work, content production or smoke testing is planned now.
 
 ### Key furry refinement
 
@@ -66,24 +71,14 @@ These are estimates, not forecasts.
 
 ## Immediate next step
 
-Do **not** build the product yet.
+Do **not** build a furry product and do not run FURRY-G00 now.
 
-### FURRY-G00 — Creator & Processor Gate
+The active workstream returns to:
 
-Before meaningful content spend:
+### MM Audio Drama vs M4M Roleplay
 
-1. structured outreach to ~15 relevant creators / VAs / furry projects;
-2. determine licensing and rev-share feasibility;
-3. obtain written policy/pre-approval guidance from at least two adult-friendly processors for the intended anthro-audio content rules.
+Use the existing AUDIO-R01 evidence to decide what narrow missing research or comparative validation is needed before assigning the next smoke-test slot.
 
-If the gate passes:
-
-### FURRY-V01 — Comparative Smoke-Test Design
-
-Test separately:
-- **Explicit-C:** does recurring-character attachment create repeat use/payment intent?
-- **Furry Worlds:** does episode completion create next-episode/season payment intent?
-
-Explicit-K can be used as a category-led control.
+Furry research remains available as a paused option and can be reactivated later if the stronger Adult Audio candidates fail or new market evidence changes the picture.
 
 No overall Adult Audio winner has been selected.
