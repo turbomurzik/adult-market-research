@@ -65,7 +65,11 @@ But materially different listener intents should not be forced into one consumer
 **Retention:** voice, creator, intimacy, repeat fantasy.  
 **Current status:** clear supply/discovery gap; willingness-to-pay versus free alternatives is the main uncertainty.
 
-### C. Furry Explicit
+### C. Furry Explicit — HOLD
+
+**Portfolio status:** **HOLD — interesting but not compelling.**
+
+No creator outreach, processor outreach, content commissioning, smoke test or product work is authorized now.
 
 **Intent:** immediate fantasy / intimacy / roleplay.
 
@@ -116,7 +120,11 @@ The user primarily searches for:
 
 C1 and C2 are **not automatically separate brands**. A successful product may use category discovery with character-led retention. This must be tested rather than assumed.
 
-### D. Furry Worlds
+### D. Furry Worlds — HOLD
+
+**Portfolio status:** **HOLD — interesting but not compelling.**
+
+The concept remains strategically interesting, but current direct audio evidence does not justify the next validation slot.
 
 > **Serialized adult furry fiction — audio-first.**
 
@@ -175,11 +183,15 @@ Canonical model:
 
 ---
 
-## 5. Compliance and payment gate comes before production
+## 5. Furry validation is paused
 
-The independent R01 pass materially changed the validation sequence.
+The creator/processor gate remains the correct **next step if the furry branch is reactivated**, but it is **not an active task now**.
 
-Before spending meaningfully on content, run **Gate 0**.
+The current evidence does not justify spending additional attention on creator outreach, processor outreach, content production or smoke-test execution.
+
+### Reactivation gate
+
+Only if furry returns to the active shortlist should we run **FURRY-G00** before production.
 
 ### Gate 0A — Creator feasibility
 
@@ -227,11 +239,15 @@ Furry Worlds may share backend, analytics and production infrastructure with Fur
 
 ---
 
-## 7. Current validation priority
+## 7. Furry priority if reactivated
+
+The entire furry branch is currently **HOLD**.
+
+If it is reactivated later, the internal priority remains:
 
 ### Priority 1 — Explicit-C
 
-Primary furry validation hypothesis.
+Primary furry validation hypothesis within the paused furry branch.
 
 Test whether recurring characters create repeat behavior beyond generic category consumption.
 
@@ -373,36 +389,26 @@ Furry Worlds remains strategically interesting because its IP/retention upside m
 
 ## 12. Immediate sequence
 
-### Step 0 — FURRY-G00: Creator & Processor Gate
+### Active next step — return to MM vs M4M
 
-Before material production:
-1. creator feasibility;
-2. processor feasibility.
+Furry is paused.
 
-### Step 1 — FURRY-V01: Comparative Smoke-Test Design
+The next active Adult Audio task is to compare and tighten the two non-furry candidates:
 
-Design two separate consumer-facing tests:
-- Explicit-C;
-- Furry Worlds.
+- **MM Audio Drama**
+- **M4M Roleplay**
 
-Include Explicit-K as a control/discovery comparison where useful.
+The next research/validation work should determine which one deserves the next real smoke-test slot, using the evidence already collected plus any narrowly targeted missing research.
 
-### Step 2 — Produce only the minimum validation corpus
+### Furry sequence — deferred
 
-No platform build and no full season.
+If furry is reactivated later:
 
-### Step 3 — Acquire targeted traffic and measure behavior
-
-The hypotheses must compete on:
-- listening depth;
-- repeat intent;
-- character/world attachment;
-- payment intent;
-- acquisition efficiency.
-
-### Step 4 — Kill, iterate or advance
-
-Only a hypothesis with real behavioral and payment signal earns a build.
+1. **FURRY-G00** — creator + processor feasibility.
+2. **FURRY-V01** — Explicit-C vs Worlds smoke-test design.
+3. minimum validation corpus only.
+4. targeted traffic.
+5. kill / iterate / advance.
 
 ---
 
@@ -418,4 +424,6 @@ The adult-audio portfolio is now:
 
 No overall winner is selected.
 
-The next move is not development. It is **Gate 0, then controlled validation**.
+**Furry status: HOLD — interesting but not compelling.**
+
+The next move is not furry Gate 0. The active workstream returns to **MM Audio Drama vs M4M Roleplay**.
