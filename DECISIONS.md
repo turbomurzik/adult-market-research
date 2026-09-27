@@ -124,3 +124,29 @@ Do not place Worlds inside an Explicit catalogue by default.
 3. **Control/secondary:** Explicit-K — compare category-led discovery against character-led retention.
 
 **Reason:** Explicit-C currently combines the strongest direct furry-audio evidence with a plausible retention/IP mechanism. Worlds retains higher speculative IP upside but weaker direct audio monetization evidence.
+
+## D-016 — 2026-09-27 — Put the furry branch on HOLD
+
+**Decision:** Move all furry-audio hypotheses to:
+
+> **HOLD — interesting but not compelling.**
+
+This applies to:
+- Furry Explicit-C;
+- Furry Explicit-K;
+- Furry Worlds.
+
+Do not currently run:
+- FURRY-G00 creator outreach;
+- processor outreach;
+- furry content commissioning;
+- FURRY-V01;
+- furry product development.
+
+Preserve all research, reconciliation notes and unit economics for possible reactivation.
+
+**Reason:** After two independent research passes and explicit unit-economics modelling, the niche appears real but relatively small, fragmented and operationally inconvenient. Direct audio willingness-to-pay evidence is weaker than initially hoped; the strongest WTP evidence often comes from adjacent VN/game markets; a ~€10k/month operating-profit target appears to require material penetration of the plausible specialist paying market; and payment/compliance overhead is high relative to the opportunity.
+
+**Reactivation condition:** Return to furry only if the stronger Adult Audio candidates disappoint, or if materially better first-party evidence appears.
+
+**Next active workstream:** MM Audio Drama vs M4M Roleplay.
