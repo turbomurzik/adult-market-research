@@ -37,67 +37,90 @@ Append-only decision log.
 
 ## D-006 — 2026-09-27 — Split the furry hypothesis into Furry Worlds and Furry Explicit
 
-**Decision:** Treat furry adult audio as two separate hypotheses:
+**Decision:** Treat furry adult audio as two separate primary-intent hypotheses:
 
-- **Furry Worlds:** serialized adult furry fiction; world/character/story-first; episode/season/world as the unit of value.
-- **Furry Explicit:** immediate fantasy/roleplay; character/species/dynamic-first; scene/roleplay as the unit of value.
+- **Furry Worlds:** serialized adult furry fiction; world/character/story-first.
+- **Furry Explicit:** immediate fantasy/roleplay; character/species/dynamic-first.
 
-**Reason:** Some users want long-form story, character attachment and worldbuilding with adult payoff; others want immediate explicit fantasy and do not want narrative overhead. Combining both intents in one catalogue risks weakening product clarity for both.
+**Reason:** Long-form story intent and immediate explicit intent should not be assumed to belong in one consumer experience.
 
 ## D-007 — 2026-09-27 — One primary consumer intent equals one consumer brand
 
-**Decision:** If several Adult Audio hypotheses validate, prefer separate market-facing brands rather than one generic adult-audio site with unrelated categories.
+**Decision:** If several Adult Audio hypotheses validate, prefer separate market-facing brands rather than one generic adult-audio site with unrelated intents.
 
-Shared infrastructure is allowed and encouraged:
-- auth;
-- player;
-- analytics;
-- CMS;
-- creator ingestion;
-- tagging;
-- payment abstraction;
-- moderation/compliance;
-- production tooling.
-
-Consumer-facing layers should remain separate where the intent differs:
-- naming;
-- visual identity;
-- onboarding;
-- homepage;
-- catalogue;
-- recommendation logic;
-- acquisition;
-- CRM/community tone.
+Shared infrastructure is allowed and encouraged.
 
 **Reason:** A focused new product should immediately feel "for me." Category adjacency does not imply consumer-brand compatibility.
 
 ## D-008 — 2026-09-27 — Research Furry Worlds and Furry Explicit next
 
-**Decision:** The next dedicated Adult Audio research task is `FURRY-R01 — Market & Wedge Research`.
+**Decision:** Run `FURRY-R01 — Market & Wedge Research`.
 
-**Required question:** Is there a sufficiently large and monetizable market for an audio-first furry destination, and is the stronger job-to-be-done serialized story/world attachment or immediate explicit roleplay?
+**Reason:** The furry branch was strategically interesting but materially less researched than MM/M4M.
 
-**Required output:** `research/audio/FURRY-R01-market-and-wedge.md`.
+## D-009 — 2026-09-27 — Advance furry hypotheses to validation, not development
 
-**Reason:** MM/M4M have already received substantial research. The furry branch is strategically interesting but remains the least evidenced part of the current Adult Audio portfolio.
+**Decision:** FURRY-R01 does not justify building a platform. It justifies designing falsifiable validation tests.
 
-## D-009 — 2026-09-27 — Advance both furry hypotheses to smoke-test design, with Furry Explicit as primary
+**Reason:** Direct market evidence remains limited and adjacent-market evidence must not be mistaken for audio product-market fit.
 
-**Decision:** FURRY-R01 does not justify building either product yet. It does justify designing two separate smoke tests:
+## D-010 — 2026-09-27 — Use reproducible unit economics
 
-- **Primary:** Furry Explicit — direct willingness-to-pay is already evidenced by multiple furry audio/ASMR creators with recurring paid memberships.
-- **Exploratory:** Furry Worlds — story/character/world retention is strongly evidenced in adjacent furry fiction/VN markets and exists in serialized furry audiobooks, but a dedicated audio-first business remains unproven.
+**Decision:** Keep furry economics in a runnable model at `research/audio/FURRY-R01-unit-economics.py`.
 
-Do not combine these tests into one consumer-facing brand.
+**Reason:** Key economics are assumptions and should be replaced incrementally with observed values rather than frozen into prose.
 
-**Reason:** Furry Explicit has stronger direct monetization evidence and a cheaper/faster MVP. Furry Worlds has higher potential IP/retention defensibility if narrative continuation demand proves real, but its production cost and format risk are materially higher.
+## D-011 — 2026-09-27 — Split Furry Explicit into character-anchored and category-anchored models
 
-## D-010 — 2026-09-27 — The next furry task is comparative validation design, not platform development
+**Decision:** Refine Furry Explicit into:
 
-**Decision:** After reconciling FURRY-R01 with the independent research pass, the next furry work product should be `FURRY-V01 — Comparative Smoke-Test Design`.
+- **Explicit-C:** recurring-character / OC anchored;
+- **Explicit-K:** category/kink/species anchored.
 
-It must test:
-- whether Furry Explicit users explore across creators/characters rather than staying loyal to one creator;
-- whether Furry Worlds listeners continue to episode 2 and show season-unlock/payment intent.
+**Current priority:** Explicit-C.
 
-**Reason:** These are the two unresolved questions that determine whether either concept is a platform/product opportunity rather than merely an existing creator or adjacent-media behavior.
+**Reason:** Independent FURRY-R01 evidence shows recurring OCs, sequels and character-linked audio already exist, while pure category catalogues are easier to commoditize. The working thesis is that category may be the acquisition mechanism while character attachment may be the retention mechanism.
+
+Explicit-C and Explicit-K are not automatically separate brands; this relationship must be tested.
+
+## D-012 — 2026-09-27 — Treat furry-audio market size conservatively
+
+**Decision:** Do not infer furry-audio TAM from total furry traffic or pornography consumption.
+
+Use a working posture of a small, fragmented niche until first-party validation proves otherwise.
+
+**Economic guardrail:** current assumptions imply roughly 2,000–4,000 payers may be required for ~€10k/month operating profit before CAC.
+
+**Reason:** Existing furry-audio supply is small, strongest willingness-to-pay evidence comes from adjacent VN/game projects, and visible leading furry projects themselves generally operate at low-thousands paid-user scale.
+
+## D-013 — 2026-09-27 — Add a creator and processor gate before content production
+
+**Decision:** The next furry step is `FURRY-G00 — Creator & Processor Gate`.
+
+Before meaningful content spend:
+
+1. conduct structured outreach to approximately 15 relevant creators / VAs / furry projects;
+2. determine licensing, rev-share and aggregation feasibility;
+3. obtain written policy/pre-approval guidance from at least two adult-friendly processors for the intended anthro-audio content boundaries.
+
+If no workable processor path exists, stop the furry commercial branch before production spend.
+
+**Reason:** Payments/compliance can invalidate the business regardless of user demand, and creator willingness determines whether a multi-creator catalogue is feasible.
+
+## D-014 — 2026-09-27 — Keep Furry Worlds consumer-positioning separate during validation
+
+**Decision:** Furry Worlds may share backend, analytics and production infrastructure with Furry Explicit, but its smoke test should use a separate story-first consumer façade.
+
+Do not place Worlds inside an Explicit catalogue by default.
+
+**Reason:** Combining story-first and immediate-explicit positioning would confound the central validation question and could reproduce the exact intent-mixing problem the brand architecture is designed to avoid.
+
+## D-015 — 2026-09-27 — Define post-gate furry validation priorities
+
+**Decision:** If FURRY-G00 passes:
+
+1. **Priority 1:** Explicit-C — test recurring-character return and payment intent.
+2. **Priority 2:** Furry Worlds — test episode completion and next-episode/season intent.
+3. **Control/secondary:** Explicit-K — compare category-led discovery against character-led retention.
+
+**Reason:** Explicit-C currently combines the strongest direct furry-audio evidence with a plausible retention/IP mechanism. Worlds retains higher speculative IP upside but weaker direct audio monetization evidence.
