@@ -24,8 +24,8 @@ Shared technical infrastructure is allowed. Different listener intents should no
 ## Current hypotheses
 
 ### Active shortlist
-1. **MM Audio Drama** — story-first MM romance/audio drama.
-2. **M4M Roleplay** — direct-to-listener male/male roleplay.
+1. **M4M Roleplay** — **first validation candidate**; direct-to-listener male/male roleplay.
+2. **MM Audio Drama** — **second validation candidate**; story-first MM romance/audio drama.
 
 ### HOLD
 3. **Furry Explicit-C** — recurring-character adult furry audio.
@@ -51,6 +51,8 @@ Current working thesis:
 - `research/01-audio.md` — Adult Audio research track.
 - `research/audio/AUDIO-STRATEGY-v1.md` — canonical current strategy.
 - `research/audio/AUDIO-R01-underserved-wedge.md` — MM/M4M market/wedge research.
+- `research/audio/AUDIO-R02-MM-vs-M4M-decision.md` — decision pass selecting the first validation candidate.
+- `research/audio/AUDIO-R02-unit-economics.py` — reproducible MM/M4M unit-economics and CAC sensitivity model.
 - `research/audio/FURRY-R01-market-and-wedge.md` — first furry market/wedge pass.
 - `research/audio/FURRY-R01-unit-economics.py` — reproducible furry unit-economics model.
 - `research/audio/FURRY-R01-reconciliation.md` — reconciliation of the two furry research passes and resulting strategy changes.
@@ -71,14 +73,22 @@ These are estimates, not forecasts.
 
 ## Immediate next step
 
-Do **not** build a furry product and do not run FURRY-G00 now.
+AUDIO-R02 is complete.
 
-The active workstream returns to:
+### First validation slot: M4M Roleplay
 
-### MM Audio Drama vs M4M Roleplay
+Next:
+`research/audio/AUDIO-V01-M4M-smoke-test.md`
 
-Use the existing AUDIO-R01 evidence to decide what narrow missing research or comparative validation is needed before assigning the next smoke-test slot.
+The smoke test should use:
+- 3 M4M creators/voices;
+- 2 audios per creator;
+- creator-led acquisition;
+- €7.99 subscription fake door;
+- **cross-creator consumption as the decisive platform metric**.
 
-Furry research remains available as a paused option and can be reactivated later if the stronger Adult Audio candidates fail or new market evidence changes the picture.
+MM Audio Drama remains the second validation candidate, not HOLD.
 
-No overall Adult Audio winner has been selected.
+Furry remains HOLD.
+
+No overall Adult Audio business winner has been selected; R02 selects only the **order of validation**.
