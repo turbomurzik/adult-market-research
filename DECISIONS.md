@@ -150,3 +150,28 @@ Preserve all research, reconciliation notes and unit economics for possible reac
 **Reactivation condition:** Return to furry only if the stronger Adult Audio candidates disappoint, or if materially better first-party evidence appears.
 
 **Next active workstream:** MM Audio Drama vs M4M Roleplay.
+
+## D-017 — 2026-09-27 — Give M4M Roleplay the first validation slot
+
+**Decision:** After AUDIO-R02, validate **M4M Roleplay before MM Audio Drama**.
+
+This is an ordering decision, not a final winner selection.
+
+- **First validation candidate:** M4M Roleplay.
+- **Second validation candidate:** MM Audio Drama.
+- **Furry:** remains HOLD.
+
+**Reason:**
+
+1. R02 found substantially stronger direct M4M willingness-to-pay evidence than R01 had: a specialist M4M creator (Grinning Pup) currently shows roughly 950–970 paid Patreon members.
+2. This still proves creator-level WTP, not platform-level WTP.
+3. Kampsite previously attempted a close “erotica by men for men” multi-creator/subscription proposition and did not leave visible durable traction; the reason is unknown, so this is a warning rather than a proven PMF failure.
+4. The decisive M4M uncertainty — whether a listener crosses from one creator to another and will pay for the aggregation layer — can be tested cheaply with a six-audio, three-creator corpus.
+5. MM Audio Drama now has stronger broad paid-audio evidence than before (thousands of Audible ratings on MM titles and major serialized engagement at Quinn), and may have the larger ultimate market and stronger IP upside.
+6. A cheap MM test carries higher false-negative risk because writing, casting, chemistry, direction and production quality are central to the product; a credible MM serial test is therefore a more expensive first experiment.
+
+**Next artifact:** `research/audio/AUDIO-V01-M4M-smoke-test.md`.
+
+**Primary validation metric:** **cross-creator consumption**, supported by listening depth, repeat use and €7.99 fake-door payment intent.
+
+**Kill implication:** If qualified users remain attached to a single creator and do not explore/pay at platform level, kill or materially reposition the M4M aggregation thesis and move the active validation slot to MM Audio Drama.
