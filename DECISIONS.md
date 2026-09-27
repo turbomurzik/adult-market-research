@@ -80,3 +80,24 @@ Consumer-facing layers should remain separate where the intent differs:
 **Required output:** `research/audio/FURRY-R01-market-and-wedge.md`.
 
 **Reason:** MM/M4M have already received substantial research. The furry branch is strategically interesting but remains the least evidenced part of the current Adult Audio portfolio.
+
+## D-009 — 2026-09-27 — Advance both furry hypotheses to smoke-test design, with Furry Explicit as primary
+
+**Decision:** FURRY-R01 does not justify building either product yet. It does justify designing two separate smoke tests:
+
+- **Primary:** Furry Explicit — direct willingness-to-pay is already evidenced by multiple furry audio/ASMR creators with recurring paid memberships.
+- **Exploratory:** Furry Worlds — story/character/world retention is strongly evidenced in adjacent furry fiction/VN markets and exists in serialized furry audiobooks, but a dedicated audio-first business remains unproven.
+
+Do not combine these tests into one consumer-facing brand.
+
+**Reason:** Furry Explicit has stronger direct monetization evidence and a cheaper/faster MVP. Furry Worlds has higher potential IP/retention defensibility if narrative continuation demand proves real, but its production cost and format risk are materially higher.
+
+## D-010 — 2026-09-27 — The next furry task is comparative validation design, not platform development
+
+**Decision:** After reconciling FURRY-R01 with the independent research pass, the next furry work product should be `FURRY-V01 — Comparative Smoke-Test Design`.
+
+It must test:
+- whether Furry Explicit users explore across creators/characters rather than staying loyal to one creator;
+- whether Furry Worlds listeners continue to episode 2 and show season-unlock/payment intent.
+
+**Reason:** These are the two unresolved questions that determine whether either concept is a platform/product opportunity rather than merely an existing creator or adjacent-media behavior.
