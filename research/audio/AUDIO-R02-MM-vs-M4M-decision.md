@@ -34,6 +34,14 @@ R02 был выполнен двумя независимыми проходам
 
 ---
 
+## Portfolio supersession — 2026-09-28
+
+**D-019 supersedes this memo as an execution instruction. The entire Adult Audio track is now HOLD.**
+
+The research findings, M4M-vs-MM comparison, unit economics and proposed validation design remain preserved as evidence. Do **not** run the creator licensing gate or AUDIO-V01 unless Adult Audio is explicitly reactivated by a later decision.
+
+---
+
 # 1. Executive summary
 
 ## Decision
