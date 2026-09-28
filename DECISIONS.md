@@ -175,3 +175,52 @@ This is an ordering decision, not a final winner selection.
 **Primary validation metric:** **cross-creator consumption**, supported by listening depth, repeat use and €7.99 fake-door payment intent.
 
 **Kill implication:** If qualified users remain attached to a single creator and do not explore/pay at platform level, kill or materially reposition the M4M aggregation thesis and move the active validation slot to MM Audio Drama.
+
+## D-018 — 2026-09-28 — Reconcile the two AUDIO-R02 passes and add a creator-licensing gate
+
+**Decision:** Keep the D-017 ordering — **M4M first, MM second** — but supersede the initial six-audio/three-creator test design with a stricter pre-build creator gate and a larger proven-content smoke test.
+
+### Portfolio terminology
+
+- **M4M Roleplay:** first validation candidate.
+- **MM Audio Drama:** **DEFERRED / TEST SECOND**. This is not furry-style HOLD and not a kill.
+- **Furry:** remains HOLD.
+
+### M4M creator licensing gate
+
+Before building AUDIO-V01:
+
+1. contact **12 verified M4M creators** with the same fixed offer;
+2. request a non-exclusive 90-day licence for 3 existing proven tracks;
+3. target €50–100/track [E] plus a referral bonus and one promotional post;
+4. require performer 18+ identity/consent documentation.
+
+Decision rule:
+- **≥5 acceptances:** proceed to AUDIO-V01;
+- **4:** one judgement/recruitment iteration is allowed;
+- **≤3:** kill the multi-creator platform version before build spend.
+
+If the gate passes, AUDIO-V01 uses approximately **5–6 creators / 15 proven tracks**, with creator-sourced and non-fan cohorts measured separately.
+
+**Primary metric remains:** **cross-creator consumption**.
+
+### Economics
+
+Adopt the more conservative AUDIO-R02 model:
+- 12% blended tax;
+- adult processor 12% + €0.25/transaction;
+- 3% refunds/chargebacks;
+- €1,500/month fixed opex;
+- age assurance €0.30/check × 8 checks per converted payer;
+- explicit CAC sensitivity;
+- 58% Media & Entertainment median first-renewal benchmark as a reality-check input.
+
+Under these assumptions, the earlier shorthand of 2–4k payers for ~€10k/month operating profit is too optimistic once non-trivial CAC and early-cohort retention are introduced. Planning should assume roughly **3–6k+ payers**, highly sensitive to CAC/churn.
+
+### MM factual correction
+
+Public `Ember & Ice` engagement data exist. At reconciliation time Quinn's Episode Two page showed **1,810,926 plays and 90,790 favorites**, and Vanity Fair reported **>27M minutes listened by 2026-01-19** using Quinn data.
+
+This strengthens evidence that serialized MM erotica can generate large engagement, but does not establish subscriber conversion, incremental acquisition, or retention, and remains heavily confounded by `Heated Rivalry` celebrity/IP demand.
+
+**Reason:** Two independent R02 passes converged on the same validation ordering. Reconciliation should preserve that convergence while adopting the stricter economics and cleaner experimental design.
