@@ -2,11 +2,15 @@
 
 Before substantive work, read `README.md`, `DECISIONS.md`, and the relevant research artifact.
 
+Follow the pinned execution standard at
+`docs/standards/AGENT_EXECUTION_DISCIPLINE_v1.1.md` through the local adoption
+record at `docs/operations/agent_execution_discipline_adoption.md`.
+
+Do not treat adoption of the standard as reactivation of a HOLD workstream.
+
 For authorized tasks, run `python3 scripts/task_sync.py start` before edits.
 After the relevant checks and an explicit scoped commit, run
-`python3 scripts/task_sync.py finish`; publication is complete only when the
-configured same-name upstream branch is verified at the same SHA.
+`python3 scripts/task_sync.py finish`; explicit user no-commit/no-push
+instructions take precedence.
 
-Explicit user no-commit/no-push instructions take precedence; report
-LOCAL_ONLY / HANDOFF_INCOMPLETE instead. Use one writing agent per worktree.
-Details and recovery: `docs/operations/git-handoff.md`.
+Use one writing agent per worktree. Details: `docs/operations/git-handoff.md`.
