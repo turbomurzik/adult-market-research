@@ -25,7 +25,7 @@ Shared technical infrastructure is allowed. Different listener intents should no
 
 ### Active shortlist
 1. **M4M Roleplay** — **first validation candidate**; direct-to-listener male/male roleplay.
-2. **MM Audio Drama** — **second validation candidate**; story-first MM romance/audio drama.
+2. **MM Audio Drama** — **DEFERRED / TEST SECOND**; story-first MM romance/audio drama.
 
 ### HOLD
 3. **Furry Explicit-C** — recurring-character adult furry audio.
@@ -52,7 +52,8 @@ Current working thesis:
 - `research/audio/AUDIO-STRATEGY-v1.md` — canonical current strategy.
 - `research/audio/AUDIO-R01-underserved-wedge.md` — MM/M4M market/wedge research.
 - `research/audio/AUDIO-R02-MM-vs-M4M-decision.md` — decision pass selecting the first validation candidate.
-- `research/audio/AUDIO-R02-unit-economics.py` — reproducible MM/M4M unit-economics and CAC sensitivity model.
+- `research/audio/AUDIO-R02-unit-economics.py` — reconciled conservative MM/M4M unit-economics and CAC sensitivity model.
+- `research/audio/AUDIO-R02-reconciliation.md` — comparison of the two independent R02 passes and canonical changes.
 - `research/audio/FURRY-R01-market-and-wedge.md` — first furry market/wedge pass.
 - `research/audio/FURRY-R01-unit-economics.py` — reproducible furry unit-economics model.
 - `research/audio/FURRY-R01-reconciliation.md` — reconciliation of the two furry research passes and resulting strategy changes.
@@ -77,17 +78,22 @@ AUDIO-R02 is complete.
 
 ### First validation slot: M4M Roleplay
 
-Next:
-`research/audio/AUDIO-V01-M4M-smoke-test.md`
+**Do not build AUDIO-V01 yet.**
 
-The smoke test should use:
-- 3 M4M creators/voices;
-- 2 audios per creator;
-- creator-led acquisition;
-- €7.99 subscription fake door;
-- **cross-creator consumption as the decisive platform metric**.
+Run the creator licensing gate first:
+- contact 12 verified M4M creators with one fixed offer;
+- non-exclusive 90-day licence;
+- 3 existing proven tracks each;
+- €50–100/track [E] + referral bonus + one promotional post;
+- performer 18+ / consent documentation.
 
-MM Audio Drama remains the second validation candidate, not HOLD.
+Gate:
+- **≥5 acceptances → proceed to AUDIO-V01** with 5–6 creators / ~15 proven tracks;
+- **≤3 acceptances → kill the multi-creator platform version before build spend**.
+
+The decisive future platform metric remains **cross-creator consumption**.
+
+MM Audio Drama is **DEFERRED / TEST SECOND**, not furry-style HOLD.
 
 Furry remains HOLD.
 
