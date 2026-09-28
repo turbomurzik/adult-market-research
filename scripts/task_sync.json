@@ -1,0 +1,13 @@
+{
+  "remote": "origin",
+  "remote_urls": [
+    "https://github.com/turbomurzik/adult-market-research.git",
+    "https://github.com/turbomurzik/adult-market-research",
+    "git@github.com:turbomurzik/adult-market-research.git",
+    "ssh://git@github.com/turbomurzik/adult-market-research.git"
+  ],
+  "allowed_untracked": [
+    ".claude/settings.local.json",
+    ".claude/launch.json"
+  ]
+}
