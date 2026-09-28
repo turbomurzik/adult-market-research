@@ -1,7 +1,7 @@
 # AUDIO-R02 — MM Audio Drama vs M4M Roleplay: Decision Research
 
 **Дата:** 2026-09-27  
-**Статус:** decision-oriented research memo  
+**Статус:** reconciled decision memo  
 **Scope:** Adult Audio only  
 **База:** `AUDIO-R01-underserved-wedge.md`, `AUDIO-STRATEGY-v1.md`, `DECISIONS.md`  
 **Цель:** выбрать **первый validation candidate**, а не объявить «лучший бизнес вообще».
@@ -11,6 +11,26 @@
 - **[F]** — факт / наблюдаемая текущая метрика из источника.
 - **[E]** — оценка, расчёт или вывод.
 - **[A]** — анекдот / отдельный пользовательский сигнал.
+
+## Reconciliation update — 2026-09-28
+
+R02 был выполнен двумя независимыми проходами и затем reconciled.
+
+Оба прохода независимо пришли к одному порядку:
+
+1. **M4M Roleplay — TEST FIRST.**
+2. **MM Audio Drama — DEFERRED / TEST SECOND.**
+3. **Furry — HOLD.**
+
+Принятые изменения после reconciliation:
+
+- economics заменена на более консервативную модель: processor 12% + €0.25/txn, refunds/chargebacks 3%, fixed opex €1.5k/mo, age assurance на free-sample funnel, CAC sensitivity и first-renewal reality check;
+- M4M validation design усилен с 3 creators / 6 audios до **licensing gate на 12 creators**, затем 5–6 creators / ~15 already-proven tracks;
+- **cross-creator consumption** остаётся decisive platform metric;
+- MM не называется HOLD: его статус **DEFERRED / TEST SECOND**;
+- factual correction: public engagement data for Quinn's `Ember & Ice` существуют. Episode Two currently shows **1,810,926 plays / 90,790 favorites**, а Vanity Fair reported **>27M listening minutes by 2026-01-19** from Quinn data. Эти метрики усиливают evidence for the format, но не дают subscriber conversion/retention and remain heavily confounded by `Heated Rivalry` celebrity/IP demand.
+
+Если более поздние разделы противоречат этому update, этот reconciliation controls.
 
 ---
 
@@ -54,13 +74,13 @@ R02 нашёл новый сильный WTP-signal, которого не бы�
 
 ### Second candidate
 
-**MM Audio Drama — KEEP / second validation candidate.**
+**MM Audio Drama — DEFERRED / TEST SECOND.**
 
-Не HOLD в смысле furry и не kill. Его evidence достаточно сильный, чтобы сохранить непосредственно за M4M.
+Это не furry-style HOLD и не kill. MM остаётся сильным вторым кандидатом с потенциально большим рынком и лучшей IP-defensibility, но не получает первый дорогой production slot.
 
 ### Exact next action
 
-> **Найти 3 M4M creators/voices, получить по 2 релевантных аудио на временную тестовую лицензию или дешёвую commission, и запустить AUDIO-V01 с шестью аудио и €7.99 fake-door.**
+> **Сначала не строить smoke test. Отправить фиксированное licensing offer 12 M4M creators. Нужны ≥5 acceptances, чтобы переходить к AUDIO-V01; ≤3 acceptances убивают multi-creator platform version до build spend.**
 
 ---
 
@@ -428,52 +448,41 @@ This distinction matters:
 
 # 11. Production economics
 
-All costs below are [E] scenario assumptions, informed by current audiobook/VA benchmarks.
-
-ACX currently advertises approximately **$100–$400 per finished hour** for standard audiobook P4P production and a marketplace with >20k voices [F].
-
-Directed explicit roleplay and multi-actor dramatic work are not identical to audiobook narration, so ACX is a baseline rather than a quote.
+Full line items and formulas: `AUDIO-R02-unit-economics.py`. All figures below are [E] scenario assumptions unless stated otherwise.
 
 ## MM Audio Drama
 
-### One credible pilot
-20–25 min, 2 principal voices, script, direction, edit/sound design, key art:
+20-minute episodes, 2 principal male voices, script, possible minor roles, direction, post, music/SFX and art.
 
-**€1.5k–4k [E]**
+| Tier | Pilot (3 eps) | Season (6 eps) | Marginal episode | € / finished min |
+|---|---:|---:|---:|---:|
+| Low | €1,750 | €3,400 | €550 | ~€28 |
+| Mid | €6,300 | €12,000 | €1,900 | ~€100 |
+| High | €18,700 | €34,900 | €5,400 | ~€291 |
 
-### Two real episodes
-Enough to test actual continuation rather than only trailer intent:
+Mid-tier ongoing cadence at roughly one episode/week implies about **€7.6k/month content spend**.
 
-**€3k–6.5k [E]**
-
-### Sustainable weekly cadence
-Mid scenario:
-- 4 episodes/month × €1.8k
-- **€7.2k/month content**
-
-Risk:
-quality itself is the product. Underfunding the pilot may create a false negative.
+A credible MM test therefore remains vulnerable to a false negative if writing, casting, chemistry, direction or sound design are underfunded.
 
 ## M4M Roleplay
 
-### Six-audio smoke corpus
-3 voices × 2 audios:
-- 8–15 min;
-- one comfort/BFE;
-- one intimate/explicit per voice.
+12-minute single-voice audios.
 
-Estimated:
-**€1.2k–4k [E]**
+| Tier | 10 audios | 25 audios | 50 audios | € / finished min |
+|---|---:|---:|---:|---:|
+| Low | €1,450 | €3,625 | €7,250 | ~€12 |
+| Mid | €4,400 | €11,000 | €22,000 | ~€37 |
+| High | €10,300 | €25,750 | €51,500 | ~€86 |
 
-Could be cheaper using temporary non-exclusive licenses to existing creator back catalogue.
+Preferred validation route is **not commissioned production first**.
 
-### Sustainable commissioned cadence
-Mid scenario:
-- 10 new audios/month × €400
-- **€4k/month**
+Use:
+- non-exclusive 90-day licences to already-proven tracks;
+- €50–100/track initial offer [E];
+- creator referral/cross-promo;
+- owned/commissioned content only after platform behavior validates.
 
-### Rev-share
-Lower fixed risk, but creator payout removes contribution margin and only works economically if creators also contribute acquisition.
+Mid-tier ongoing commissioned cadence at ~2 new audios/week implies about **€3.5k/month content spend**.
 
 ---
 
@@ -483,72 +492,63 @@ Canonical runnable model:
 
 `research/audio/AUDIO-R02-unit-economics.py`
 
-## Assumptions [E]
+## Common assumptions [E]
 
 | Input | Assumption |
 |---|---:|
 | Price | €7.99 / €9.99 |
 | Blended VAT/sales tax | 12% gross |
-| Adult processor | 13% |
-| Refunds/chargebacks | 2% |
-| Net after above | 73% |
-| Infra/base compliance | €700/mo |
-| Age verification | €0.40/new payer |
-| Churn | 10/15/20% scenarios |
-| Mid MM content | €7.2k/mo |
-| Mid M4M commissioned | €4k/mo |
-| M4M rev-share | 45% net |
+| Adult processor | 12% + €0.25 / txn |
+| Refunds + chargebacks | 3% |
+| Fixed opex | €1,500 / month |
+| Age assurance | €0.30 / verification |
+| Checks per converted payer | 8 |
+| Churn scenarios | 10% / 15% / 20% |
+| Mid MM content budget | €7,600 / month |
+| Mid M4M content budget | €3,520 / month |
+| M4M rev-share scenario | 40% net + €1k owned top-up |
 
-No assumption above is claimed as a forecast.
-
-## Profit at 15% churn, CAC = €0
-
-### €9.99/month
-
-| Payers | MM mid | M4M commissioned | M4M rev-share |
-|---:|---:|---:|---:|
-| 500 | −€4.3k | −€1.1k | +€1.3k |
-| 1,250 | +€1.1k | +€4.3k | +€4.2k |
-| 2,500 | +€10.2k | +€13.4k | +€9.2k |
-| 5,000 | +€28.3k | +€31.5k | +€19.1k |
-| 10,000 | +€64.4k | +€67.6k | +€38.8k |
+Net revenue per subscriber:
+- **€5.58 @ €7.99**
+- **€7.04 @ €9.99**
 
 ## Payers needed for €10k/month operating profit
 
-### €9.99
+### €7.99, 15% churn
 
-| CAC/new payer | MM | M4M commissioned | M4M rev-share |
-|---:|---:|---:|---:|
-| €0 | ~2,475 | ~2,033 | ~2,708 |
-| €10 | ~3,122 | ~2,564 | ~4,366 |
-| €20 | ~4,229 | ~3,473 | ~11,251 |
+| Model | CAC €0 | CAC €10 | CAC €20 | CAC €40 |
+|---|---:|---:|---:|---:|
+| MM | 3,658 | 5,131 | 8,594 | ∞ |
+| M4M commissioned | 2,876 | 4,035 | 6,758 | ∞ |
+| M4M rev-share 40% | 4,182 | 8,392 | ∞ | ∞ |
 
-### €7.99
+### €9.99, 15% churn
 
-| CAC/new payer | MM | M4M commissioned | M4M rev-share |
-|---:|---:|---:|---:|
-| €0 | ~3,101 | ~2,546 | ~3,399 |
-| €10 | ~4,189 | ~3,440 | ~6,493 |
-| €20 | ~6,456 | ~5,302 | ~72,305 |
+| Model | CAC €0 | CAC €10 | CAC €20 | CAC €40 |
+|---|---:|---:|---:|---:|
+| MM | 2,859 | 3,686 | 5,187 | 27,978 |
+| M4M commissioned | 2,248 | 2,899 | 4,079 | 22,001 |
+| M4M rev-share 40% | 3,234 | 5,285 | 14,441 | ∞ |
 
-The last number is not a typo. Under the chosen assumptions, €7.99 + 45% net rev-share + 15% churn leaves almost no contribution room for €20 CAC.
+`∞` means per-subscriber contribution is non-positive under that scenario.
 
-## Max sustainable CAC at 5,000 payers while preserving €10k profit
+## Early-cohort reality check
 
-| Price | MM | M4M commissioned | M4M rev-share |
-|---|---:|---:|---:|
-| €7.99 | €14.62 | €18.88 | €6.72 |
-| €9.99 | €24.35 | €28.62 | €12.07 |
+Using the 2026 Media & Entertainment benchmark of **58% median first monthly renewal** [F], then 10–20% monthly churn afterwards, a €7.99 payer yields only about **3.65–4.98 paid months in the first 12 months**, or roughly **€20–28 net LTV12** under the model [E].
 
-## Interpretation
+Implications:
 
-1. **M4M commissioned has the best mid-case operating margin.**
-2. **Rev-share is excellent for reducing fixed startup risk but fragile under paid acquisition.**
-3. Creator-led acquisition is therefore not a nice bonus; it may be required for rev-share economics.
-4. CAC matters more than small differences in processor assumptions.
-5. “2–4k paid users for €10k profit” is only defensible when acquisition remains fairly efficient.
+1. **Paid CAC above ~€15–20 is dangerous for both products.**
+2. A steady-state 10–15% churn assumption is optimistic for a young catalogue.
+3. Both models need a near-free partner-led acquisition channel.
+4. M4M rev-share only works attractively if creators also contribute acquisition.
+5. The earlier shorthand “2–4k payers for €10k profit” is too optimistic once realistic CAC / funnel verification / early renewal are included.
+
+Current planning posture: **~3–6k+ payers**, strongly sensitive to CAC and retention.
 
 ---
+
+# 13. Retention comparison
 
 # 13. Retention comparison
 
@@ -747,95 +747,101 @@ A weak production can falsely reject the entire market.
 
 # 17. Smoke test design — M4M Roleplay
 
-## Exact target
+Do **not** build this test before the creator licensing gate passes.
 
-English-speaking gay/bi male listeners already consuming M4M/BFE/comfort/adult audio.
+## Gate before build
 
-## Proposition
+Send the same fixed offer to **12 verified M4M creators**:
 
-> **M4M audio built for the listener: three great voices, one subscription, no digging through unrelated catalogues.**
+- non-exclusive 90-day licence;
+- 3 existing proven tracks;
+- €50–100 per track [E];
+- referral bonus;
+- performer 18+ ID / consent documentation;
+- one promotional post to their audience.
 
-Avoid adversarial “women's apps are bad” messaging.
+Decision:
+- **≥5 acceptances → proceed to AUDIO-V01.**
+- **4 acceptances → one judgement/recruitment iteration.**
+- **≤3 acceptances → KILL the multi-creator platform version before build spend.**
 
-## Minimum corpus
+Creator acceptance itself is part of product-market feasibility.
 
-**3 creators/voices × 2 audios = 6 total.**
+## AUDIO-V01 corpus after gate
 
-Per voice:
-- 1 comfort/BFE/intimacy;
-- 1 more explicit/intense track.
+- **5–6 established M4M creators**
+- **~15 tracks total**, about 3 per creator
+- 8–15 minutes each
+- previously released / already well-received where possible
+- ~6 explicit roleplays
+- ~5 comfort/BFE/sleep
+- ~2 recurring-character parts
+- ~2 deliberately written M4TM/M4A variants
 
-8–15 min each.
+Using proven tracks removes most of the “our test content was simply bad” confound.
 
-Prefer licensed existing content or creator-standard production. Human voices.
+## Product / landing
 
-## Product
-
-Mobile web:
+M4M-only façade:
+- speaker→listener label first;
 - creator cards;
-- exact speaker→listener metadata;
-- simple player;
-- follow/favorite;
-- “more from this voice”;
-- “try another voice”;
-- fake-door **Unlimited €7.99/month**.
-
-No real payment required for first smoke test.
+- filters for dynamic + format;
+- 3 tracks fully open;
+- remaining tracks behind fake-door / early-access lock;
+- explicit playback behind appropriate age assurance.
 
 ## Acquisition
 
-First:
-- each participating creator cross-promotes;
-- selected community promotion where allowed.
+Track cohorts separately:
 
-Do not start with generic adult ad networks.
+1. creator-sourced traffic;
+2. non-fan traffic via ~€800–1,200 adult-network gay-category buy [E];
+3. optional long-tail SEO.
 
-## Core metrics
+## Fake door
 
-1. visit → first play;
-2. 50% completion;
-3. second audio;
-4. **second creator**;
-5. same-creator return;
-6. paywall click;
-7. waitlist/email;
-8. 7-day return where window permits.
+Randomize:
+- **All creators, all drops — €7.99/month**
+- **€2.99 this audio**
 
-## The decisive metric
+Capture email after price exposure; do not take payment in V01.
 
-> **Cross-creator consumption.**
+## Critical metrics
 
-Without it, platform economics collapse back into creator economics.
+1. first play;
+2. second track;
+3. **second-creator listen**;
+4. 7-day return;
+5. paywall click / price-shown email capture;
+6. fan vs non-fan cohort;
+7. creator acceptance rate.
 
-## Heuristic PASS [E]
+## Initial thresholds [E]
 
-At ~1,000 qualified visitors:
-- ≥25% visit→play;
-- ≥30–35% of meaningful listeners start a second audio;
-- **≥15% sample a second creator**;
-- ≥5% of meaningful listeners click €7.99 paywall;
-- evidence of repeat use beyond a single creator.
+**PASS**
+- ≥40% start a second track;
+- **≥25% of creator-sourced listeners play a different creator**;
+- ≥15% return within 7 days;
+- ≥3% leave email at €7.99;
+- non-fan cohort reaches ≥50% of fan-cohort rates;
+- ≥5 of 12 creators accept licensing.
 
-## ITERATE
+**ITERATE**
+- second-creator 10–25%;
+- or capture 1–3%;
+- test bundle framing, €4.99, per-audio model or creator-label model.
 
-- listening strong, payment weak;
-- one creator dominates but meaningful second-creator exploration exists;
-- comfort materially beats explicit or vice versa.
+**KILL**
+- second-creator <10%;
+- or capture <1%;
+- or 7-day return <5%;
+- or ≤3 of 12 creators accept licensing.
 
-## KILL
-
-- <10% meaningful cross-creator behavior **and** <2% paywall click;
-- almost all engagement belongs to one creator;
-- users clearly prefer direct Patreon relationship;
-- creators cannot economically participate without expensive guarantees.
-
-## Budget [E]
-
-**~€1.5k–5k total**, depending licensing/commissions and cross-promo economics.
-
-This is materially easier to stage than a credible MM serial test.
+Lock thresholds before launch. Do not move them post hoc.
 
 ---
+
+# 18. Decision matrix
 
 # 18. Decision matrix
 
@@ -903,12 +909,12 @@ then MM should immediately inherit the first validation slot.
 
 ### Not proven
 - standalone short-episode subscription economics;
-- retention without celebrity/IP;
+- subscriber conversion/retention without celebrity/IP;
 - CAC;
 - willingness to switch from long audiobooks to short episodes.
 
 ### Strongest positive signal
-Thousands of paid-audio ratings across multiple MM titles plus `Ember & Ice` engagement.
+Thousands of paid-audio ratings across multiple MM titles plus direct public `Ember & Ice` engagement evidence: >27M listening minutes by 2026-01-19 and current seven-figure episode play counts.
 
 ### Strongest negative signal
 The exact production feature we liked — duet/full-cast — is already becoming mainstream.
@@ -971,19 +977,19 @@ A positive result is unusually valuable because it resolves the exact weakness e
 
 ## D. Second candidate
 
-# **MM Audio Drama — TEST SECOND**
+# **MM Audio Drama — DEFERRED / TEST SECOND**
 
 Do not kill and do not demote to furry-style HOLD.
 
 MM currently has the stronger broad-market evidence and may have the higher ceiling.
 
-It simply should not consume the first expensive validation slot while M4M can be falsified cheaply.
+It is **DEFERRED**, not inactive: it should inherit the validation slot if M4M fails its gate/test, or earlier if an author/adaptation partner materially lowers MM validation cost.
 
 ---
 
 # 21. Exact next action
 
-> **Recruit exactly 3 established M4M creators/voices for a 2–3 week multi-creator smoke test, obtaining temporary rights to 2 audios per creator (or commissioning equivalent material), then build `AUDIO-V01-M4M-smoke-test.md` around cross-creator consumption and €7.99 payment intent.**
+> **Send one fixed licensing offer to 12 verified M4M creators. Request a non-exclusive 90-day licence for 3 existing proven tracks at €50–100/track [E], referral bonus, performer 18+ / consent documentation, and one promotional post. ≥5 acceptances → build AUDIO-V01 with 5–6 creators / ~15 proven tracks. ≤3 acceptances → kill the multi-creator platform version before build spend.**
 
 Do not build the platform before this.
 
@@ -1038,3 +1044,9 @@ Do not build the platform before this.
 - Patreon Community Guidelines: https://www.patreon.com/policy/guidelines
 - Ofcom Adults Only / pornography guidance: https://www.ofcom.org.uk/adultsonly
 - Ofcom age assurance: https://www.ofcom.org.uk/online-safety/protecting-children/age-assurance
+
+
+## Reconciliation sources added 2026-09-28
+
+- Quinn, *Ember & Ice — Episode Two: Dane*: public page showed 1,810,926 plays and 90,790 favorites at reconciliation time — https://www.tryquinn.com/audio/episode-two-dane
+- Vanity Fair, *Storrie Time: How the Quinn App Got the Heated Rivalry Boys to Read You Smut*: reports >27M minutes listened by 2026-01-19 according to Quinn data — https://www.vanityfair.com/culture/story/quinn-audio-smut-heated-rivalry
