@@ -224,3 +224,41 @@ Public `Ember & Ice` engagement data exist. At reconciliation time Quinn's Episo
 This strengthens evidence that serialized MM erotica can generate large engagement, but does not establish subscriber conversion, incremental acquisition, or retention, and remains heavily confounded by `Heated Rivalry` celebrity/IP demand.
 
 **Reason:** Two independent R02 passes converged on the same validation ordering. Reconciliation should preserve that convergence while adopting the stricter economics and cleaner experimental design.
+
+## D-019 — 2026-09-28 — Put the entire Adult Audio track on HOLD
+
+**Decision:** Move the complete Adult Audio portfolio to:
+
+> **HOLD — viable, but not compelling enough to pursue now.**
+
+This supersedes D-017/D-018 as execution instructions while preserving them as research history.
+
+Applies to:
+- M4M Roleplay;
+- MM Audio Drama;
+- Furry Explicit-C;
+- Furry Explicit-K;
+- Furry Worlds.
+
+Do not currently:
+- run the 12-creator M4M licensing gate;
+- build AUDIO-V01;
+- contact creators for licensing or commissioning;
+- produce an MM pilot;
+- perform processor/payment outreach for Adult Audio;
+- build an Adult Audio product.
+
+**Reason:**
+
+After R01, FURRY-R01, two independent AUDIO-R02 passes, reconciliation and conservative unit-economics modelling, none of the Adult Audio hypotheses shows a sufficiently strong opportunity asymmetry for the current business objective.
+
+- **M4M:** direct creator-level willingness-to-pay is real, but the visible specialist paying market is small/fragmented, platform-level willingness-to-pay is unproven, free substitutes are abundant, and reaching the target economics likely requires capturing a material share of the plausible paid market.
+- **MM Audio Drama:** the paying market is larger and better evidenced, but the opportunity is more competitive, production-heavy, quality-sensitive and exposed to strong audiobook/Quinn/Dipsea substitutes.
+- **Furry:** remains real but smaller, fragmented and operationally inconvenient.
+- **Economics:** the reconciled model pushes the ~€10k/month operating-profit target toward roughly **3,000–6,000+ paying users** under realistic non-zero CAC/retention assumptions, rather than the earlier casual 2–4k shorthand.
+
+**Interpretation:** This is not a conclusion that Adult Audio cannot work. It is a portfolio decision that the branch is **not compelling enough to justify further attention or capital now**.
+
+**Reactivation condition:** Only reactivate Adult Audio after a new explicit decision supported by materially better evidence, materially lower acquisition/production cost, a strong distribution/creator partnership, a changed payment/compliance environment, or a changed strategic objective.
+
+**Next active workstream:** none is selected by this decision. Return to opportunity search rather than forcing the next Adult Audio gate.
