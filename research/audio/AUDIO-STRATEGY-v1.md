@@ -1,6 +1,6 @@
 # AUDIO-STRATEGY-v1
 
-**Status:** Canonical strategy note  
+**Status:** Canonical strategy note — **HOLD**  
 **Date:** 2026-09-27  
 **Scope:** Adult Audio only  
 **Purpose:** Preserve the current product decomposition, brand architecture, evidence state, and validation sequence.
@@ -9,20 +9,13 @@
 
 ## 1. Scope lock
 
-For the current phase, the project stays **strictly inside Adult Audio**.
+As of 2026-09-28, the **entire Adult Audio track is on HOLD**.
 
-Do not expand the active workstream into:
-- adult games;
-- comics;
-- visual novels;
-- AI companions;
-- AI video;
-- general furry media;
-- broader creator platforms.
+There is no active Adult Audio validation or build task.
 
-Adjacent markets may be used as **evidence proxies**, not as new product directions.
+Preserve the research, models and product decomposition. Do not run creator outreach, licensing, smoke tests, content production, processor work or product development unless the track is explicitly reactivated by a later decision.
 
-The current task is to identify which adult-audio hypothesis deserves to be built.
+The previous scope lock to Adult Audio is therefore superseded as an execution instruction.
 
 ---
 
@@ -55,7 +48,7 @@ But materially different listener intents should not be forced into one consumer
 **User thought:** “I want to hear their story.”  
 **Core unit:** episode / series / season.  
 **Retention:** plot, relationship, recurring characters, cliffhangers.  
-**Current status:** **DEFERRED / TEST SECOND.** R02 found strong direct paid MM-audio evidence and major serialized engagement precedent, including public seven-figure episode play counts for Quinn's `Ember & Ice`. But subscriber conversion/retention remain undisclosed and celebrity/IP confounding is severe. Keep immediately behind M4M; this is not furry-style HOLD.
+**Current status:** **HOLD — viable, not compelling enough to pursue now.** R02 found strong direct paid MM-audio evidence and major serialized engagement precedent, but the opportunity remains production-heavy, competitive and without a sufficiently strong structural asymmetry for the current objective.
 
 ### B. M4M Roleplay
 
@@ -63,7 +56,7 @@ But materially different listener intents should not be forced into one consumer
 **User thought:** “I want him to talk to me.”  
 **Core unit:** roleplay / creator drop / recurring-character session.  
 **Retention:** voice, creator, intimacy, repeat fantasy.  
-**Current status:** **first validation candidate.** R02 found materially stronger direct WTP than R01 knew (one specialist M4M creator at roughly 950–970 paid Patreon members), but the platform/aggregation thesis remains unproven. The decisive next question is whether listeners cross from one creator to another and show €7.99 platform-level payment intent.
+**Current status:** **HOLD — viable, not compelling enough to pursue now.** R02 found materially stronger direct creator-level WTP than R01 knew, but platform/aggregation WTP remains unproven, free substitutes are abundant, and the payer requirement is large relative to the visible specialist paying market.
 
 ### C. Furry Explicit — HOLD
 
@@ -389,59 +382,41 @@ Furry Worlds remains strategically interesting because its IP/retention upside m
 
 ## 12. Immediate sequence
 
-### Active next step — M4M creator licensing gate
+### Adult Audio — HOLD
 
-AUDIO-R02 is complete and reconciled across two independent research passes.
+Do not run:
+- the M4M 12-creator licensing gate;
+- AUDIO-V01;
+- M4M licensing/commissioning;
+- MM pilot production;
+- processor or payment outreach for this branch.
 
-**Decision:** M4M Roleplay gets the first validation slot. MM Audio Drama is **DEFERRED / TEST SECOND**.
+The previous validation ordering remains useful historical information only:
+1. M4M was the cheaper falsification candidate.
+2. MM was the stronger second candidate.
+3. Furry was already HOLD.
 
-Before building AUDIO-V01:
+That ordering no longer authorizes execution.
 
-1. send the same fixed licensing offer to **12 verified M4M creators**;
-2. request a non-exclusive 90-day licence for 3 existing proven tracks;
-3. target €50–100/track [E] + referral bonus + one promotional post;
-4. require performer 18+ / consent documentation.
-
-Gate:
-- **≥5 acceptances → build AUDIO-V01** with 5–6 creators / ~15 proven tracks;
-- **4 → one judgement/recruitment iteration**;
-- **≤3 → kill the multi-creator platform version before build spend**.
-
-AUDIO-V01 then tests:
-- creator-led vs non-fan acquisition;
-- second listen;
-- **cross-creator consumption**;
-- 7-day return;
-- €7.99 fake-door intent.
-
-The decisive metric remains **cross-creator consumption**, not raw listening time.
-
-### Furry sequence — deferred
-
-If furry is reactivated later:
-
-1. **FURRY-G00** — creator + processor feasibility.
-2. **FURRY-V01** — Explicit-C vs Worlds smoke-test design.
-3. minimum validation corpus only.
-4. targeted traffic.
-5. kill / iterate / advance.
-
----
+Reactivation requires a new explicit decision based on materially improved evidence, economics, acquisition leverage, production economics, or a changed business objective.
 
 ## 13. Current strategic snapshot
 
-The adult-audio portfolio is now:
+The Adult Audio portfolio is now:
 
-> **MM Drama — story about them**  
-> **M4M Roleplay — directed at me**  
-> **Furry Explicit-C — return to this character**  
-> **Furry Explicit-K — find this fantasy/category**  
-> **Furry Worlds — return to this world**
+> **M4M Roleplay — HOLD**  
+> **MM Audio Drama — HOLD**  
+> **Furry Explicit-C — HOLD**  
+> **Furry Explicit-K — HOLD**  
+> **Furry Worlds — HOLD**
 
-No overall business winner is selected.
+**Portfolio status: HOLD — viable, but not compelling enough to pursue now.**
 
-**First validation slot: M4M Roleplay — creator licensing gate first.**  
-**Second validation candidate: MM Audio Drama — DEFERRED / TEST SECOND.**  
-**Furry: HOLD — interesting but not compelling.**
+Why:
+- M4M has real creator-level WTP, but a small/fragmented visible paying market and unproven platform-level WTP;
+- MM has a larger paying market, but higher production cost, mature substitutes and weaker structural asymmetry;
+- furry remains smaller, fragmented and operationally inconvenient;
+- reconciled economics imply roughly **3–6k+ payers** under realistic non-zero CAC scenarios to reach the target operating-profit range.
 
-This ordering is about **information gain and cost of falsification**, not a claim that M4M has the larger final market.
+No Adult Audio execution step is currently authorized.
+
