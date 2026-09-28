@@ -1,8 +1,14 @@
 # AUDIO-R02 — Independent-pass reconciliation
 
 **Date:** 2026-09-28  
-**Status:** Canonical reconciliation note  
+**Status:** Canonical reconciliation note — superseded for execution by D-019  
 **Scope:** MM Audio Drama vs M4M Roleplay
+
+## 0. Portfolio supersession
+
+As of 2026-09-28, **D-019 puts the entire Adult Audio track on HOLD**.
+
+This reconciliation remains the canonical record of the two R02 passes, but its creator-gate / M4M-first sequence is historical and does not authorize execution.
 
 ## 1. Result
 
@@ -97,4 +103,6 @@ So the correction **strengthens MM evidence without changing the first-test orde
 
 ## 7. Exact next action
 
-> Send one fixed 90-day non-exclusive licensing offer to 12 verified M4M creators. Do not build AUDIO-V01 until the acceptance gate is resolved.
+> **None inside Adult Audio while D-019 is active.**
+
+Do not send the creator licensing offer or build AUDIO-V01 unless the track is explicitly reactivated.
