@@ -4,12 +4,13 @@ Exploratory research repository for adult digital-media opportunities.
 
 ## Status
 
-**Stage:** Adult Audio validation research  
-**Started:** 2026-09-26
+**Stage:** Adult Audio research complete — **HOLD**  
+**Started:** 2026-09-26  
+**Hold decision:** 2026-09-28
 
-The active workstream is currently **Adult Audio only**.
+There is currently **no active Adult Audio validation workstream**.
 
-Games, visual novels, comics, AI companions, AI video and other adjacent formats may be used as demand proxies, but are not active product directions until an adult-audio hypothesis earns further investment.
+The complete Adult Audio branch is preserved as research/evidence, but no creator outreach, licensing gate, smoke test, content production or product build is authorized now.
 
 ## Canonical Adult Audio strategy
 
@@ -23,16 +24,17 @@ Shared technical infrastructure is allowed. Different listener intents should no
 
 ## Current hypotheses
 
-### Active shortlist
-1. **M4M Roleplay** — **first validation candidate**; direct-to-listener male/male roleplay.
-2. **MM Audio Drama** — **DEFERRED / TEST SECOND**; story-first MM romance/audio drama.
+### HOLD — entire Adult Audio portfolio
 
-### HOLD
-3. **Furry Explicit-C** — recurring-character adult furry audio.
-4. **Furry Explicit-K** — category/kink-led furry catalogue.
-5. **Furry Worlds** — serialized adult furry audio fiction.
+1. **M4M Roleplay** — viable niche, but platform-level WTP is unproven and the visible paid market is small relative to the payer count required for the target economics.
+2. **MM Audio Drama** — larger and better-proven paying market, but more competitive, production-heavy and without a sufficiently strong structural asymmetry.
+3. **Furry Explicit-C** — HOLD.
+4. **Furry Explicit-K** — HOLD.
+5. **Furry Worlds** — HOLD.
 
-**Furry status:** **HOLD — interesting but not compelling.** Research is preserved, but no further creator outreach, processor work, content production or smoke testing is planned now.
+> **Adult Audio status: HOLD — viable, not compelling enough to pursue now.**
+
+Research, models and decision history remain canonical and may be reactivated if materially better evidence or a materially better cost/acquisition structure appears.
 
 ### Key furry refinement
 
@@ -64,37 +66,26 @@ Current working thesis:
 
 ## Economic guardrail
 
-The current furry model is intentionally conservative.
+The reconciled R02 model materially reduced the attractiveness of the branch.
 
-At €7.99–9.99/month, the current scenario model suggests that approximately **2,000–4,000 paying users** may be required to reach ~€10k/month operating profit **before CAC**, depending on production and creator economics.
+At €7.99–9.99/month, realistic content costs, adult processing, age assurance, churn and non-zero CAC push the ~€10k/month operating-profit target toward roughly **3,000–6,000+ paying users**, with outcomes highly sensitive to CAC and retention.
 
-At 15% monthly churn, 2,000–4,000 subscribers imply roughly **300–600 replacement subscribers every month just to stay flat**.
+For M4M, that implies capturing a material share of the visible specialist paying market while also proving platform-level value above individual creator loyalty.
+
+For MM, the market is larger, but the product competes against mature audiobook/romance substitutes and requires materially higher production quality/cost.
 
 These are estimates, not forecasts.
 
 ## Immediate next step
 
-AUDIO-R02 is complete.
+**None inside Adult Audio.**
 
-### First validation slot: M4M Roleplay
+Do not:
+- run the 12-creator M4M licensing gate;
+- build AUDIO-V01;
+- commission or license audio;
+- start MM production;
+- contact processors for this branch.
 
-**Do not build AUDIO-V01 yet.**
+Reactivation requires a new explicit decision supported by materially stronger evidence, economics, acquisition leverage, or a changed strategic objective.
 
-Run the creator licensing gate first:
-- contact 12 verified M4M creators with one fixed offer;
-- non-exclusive 90-day licence;
-- 3 existing proven tracks each;
-- €50–100/track [E] + referral bonus + one promotional post;
-- performer 18+ / consent documentation.
-
-Gate:
-- **≥5 acceptances → proceed to AUDIO-V01** with 5–6 creators / ~15 proven tracks;
-- **≤3 acceptances → kill the multi-creator platform version before build spend**.
-
-The decisive future platform metric remains **cross-creator consumption**.
-
-MM Audio Drama is **DEFERRED / TEST SECOND**, not furry-style HOLD.
-
-Furry remains HOLD.
-
-No overall Adult Audio business winner has been selected; R02 selects only the **order of validation**.
